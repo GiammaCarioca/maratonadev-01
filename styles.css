@@ -90,6 +90,8 @@ form button {
 
 form input {
 	background-color: transparent;
+	font-size: 16px;
+	color: white;
 }
 
 form input::placeholder {
@@ -136,4 +138,15 @@ footer {
 	margin-top: auto;
 	padding: 16px;
 	border: 1px solid #eee;
+}
+
+section.form {
+	transition: all 300ms;
+}
+
+section.form.hide {
+	opacity: 0;
+	visibility: hidden;
+	height: 0;
+	margin-top: -70px;
 }
